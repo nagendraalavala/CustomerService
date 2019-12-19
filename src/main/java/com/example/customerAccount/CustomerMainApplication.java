@@ -13,7 +13,6 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@EnableJpaRepositories
 @EnableSwagger2
 @ComponentScan(basePackages = "com.example.customerAccount") 
 public class CustomerMainApplication {
